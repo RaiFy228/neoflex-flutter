@@ -7,6 +7,26 @@ void main() {
       
   ));
 }
+class MyHomePage extends StatelessWidget {
+  const MyHomePage({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Custom Fonts'),
+        centerTitle: true,
+      ),
+      body: const Align(
+        alignment: Alignment.center,
+        child: Text(
+          'Hombre Regular',
+          style: TextStyle(fontFamily: 'Hombre Regular', fontSize: 22),
+        ),
+      ),
+    );
+  }
+}
 
 class ScaffoldPage extends StatelessWidget {
   const ScaffoldPage({super.key});
@@ -31,26 +51,7 @@ class ScaffoldPage extends StatelessWidget {
   }
 }
 
-class MyHomePage extends StatelessWidget {
-  const MyHomePage({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Custom Fonts'),
-        centerTitle: true,
-      ),
-      body: const Align(
-        alignment: Alignment.center,
-        child: Text(
-          'Hombre Regular',
-          style: TextStyle(fontFamily: 'Hombre Regular', fontSize: 22),
-        ),
-      ),
-    );
-  }
-}
 
 class MyStatelessWidget extends StatelessWidget {
   const MyStatelessWidget({super.key});

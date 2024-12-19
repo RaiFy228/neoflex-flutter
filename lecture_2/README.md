@@ -2,6 +2,8 @@
 
 ## 1. runApp
 
+![alt text](assets/images/image6.png)
+
 ![alt text](assets/images/image-2.png)
 
 ## 2. MaterialApp
