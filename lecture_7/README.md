@@ -11,3 +11,7 @@
 ## SnackBar
 
 ![alt text](image-3.png)
+
+## Gesture
+
+![alt text](image-4.png)
