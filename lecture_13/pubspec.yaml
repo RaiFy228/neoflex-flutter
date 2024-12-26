@@ -1,0 +1,31 @@
+name: lecture_13
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.6
+  freezed_annotation: ^2.2.0
+  json_annotation: ^4.8.1
+  collection: ^1.19.0
+  cupertino_icons: ^1.0.8
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.4
+  freezed: ^2.3.2
+  json_serializable: ^6.6.1
+
+flutter:
+  uses-material-design: true
